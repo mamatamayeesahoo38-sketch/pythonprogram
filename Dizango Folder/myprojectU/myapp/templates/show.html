@@ -1,0 +1,10 @@
+<h2>Student List</h2>
+
+{% for s in students %}
+    {{ s.name }} - {{ s.address }}
+    <a href="/update/{{ s.id }}/">Edit</a>
+    <a href="/delete/{{ s.id }}/">Delete</a>
+    <br><br>
+{% endfor %}
+
+<a href="/">Add New Student</a>

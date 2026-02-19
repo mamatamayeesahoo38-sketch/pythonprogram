@@ -1,0 +1,10 @@
+<h2>Product List</h2>
+
+{% for id, product in products.items %}
+    <p>
+        {{ product.name }} - ₹{{ product.price }}
+        <a href="/add/{{ id }}/">Add to Cart</a>
+    </p>
+{% endfor %}
+
+<a href="/cart/">View Cart</a>

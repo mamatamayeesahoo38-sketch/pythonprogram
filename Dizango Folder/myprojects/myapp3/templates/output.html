@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Output Page</title>
+</head>
+<body>
+
+<h2>Saved Records</h2>
+
+<table border="1">
+<tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Hobby</th>
+    <th>Gender</th>
+    <th>Country</th>
+</tr>
+
+{% for person in persons %}
+<tr>
+    <td>{{ person.name }}</td>
+    <td>{{ person.address }}</td>
+    <td>{{ person.hobby }}</td>
+    <td>{{ person.gender }}</td>
+    <td>{{ person.country }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>

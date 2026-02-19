@@ -1,0 +1,9 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.input_page, name='input'),
+    path('output/', views.output_page, name='output'),
+    path('show/', views.show_records, name='show_records'),
+]
+

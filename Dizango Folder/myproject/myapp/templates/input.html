@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Page</title>
+</head>
+<body>
+
+<h2>Enter Your Details</h2>
+
+<form method="post" action="{% url 'output' %}">
+    {% csrf_token %}
+
+    Name: <input type="text" name="name"><br><br>
+    
+    Address: <input type="text" name="address"><br><br>
+    
+    Hobby: <input type="text" name="hobby"><br><br>
+    
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    Country:
+    <select name="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
