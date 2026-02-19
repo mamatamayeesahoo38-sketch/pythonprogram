@@ -1,0 +1,10 @@
+print("enter your name")
+N=input()
+print("enter your roll number")
+R=int(input())
+print("enter your mark")
+M=float(input())
+print("enter your name",N)
+print("enter your roll number",R)
+print("enter your mark",M)
+

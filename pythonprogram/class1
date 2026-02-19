@@ -1,0 +1,55 @@
+literal/constant/data
+___________________________
+integer       10,-5,57
+floating ponit/real   3.5,-4.7
+string               'a' "a"   '''a''' """a"""  "123"
+bool                  True  False
+complex              3+2j  4-5j
+
+5
+5.0
+'5'
+"5"
+5+0j
+
+
+print(): it is predefined function.
+it is used display output
+
+#wap display any integer real  and string
+
+print(5)
+print(7.8)
+print("hi")
+
+escape  sequence
+_____________________
+\n
+\t
+\b
+\r
+\\
+
+
+
+#wap display any integer real  and string
+print(10,3.7,"hi")
+
+by default
+________________
+print(sep=" ",end="\n")
+
+
+
+
+print("hi\nram")
+
+o/p:
+hi
+ram
+
+print("hi\tram")
+
+o/p:
+hi ram
+

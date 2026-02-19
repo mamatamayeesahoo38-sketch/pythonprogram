@@ -1,0 +1,6 @@
+n1=2
+n2=5
+s=n1+n2
+print("first number=",n1)
+print("second number=",n2)
+print("sum of two number=",s)

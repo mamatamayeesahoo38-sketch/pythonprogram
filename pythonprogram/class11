@@ -1,0 +1,285 @@
+literal/constant/data
+___________________________
+integer       10,-5,57
+floating ponit/real   3.5,-4.7
+string               'a' "a"   '''a''' """a"""  "123"
+bool                  True  False
+complex              3+2j  4-5j
+
+5
+5.0
+'5'
+"5"
+5+0j
+
+
+print(): it is predefined function.
+it is used display output
+
+#wap display any integer real  and string
+
+print(5)
+print(7.8)
+print("hi")
+
+
+escape  sequence
+_____________________
+\n
+\t
+\b
+\r
+\\
+
+
+
+#wap display any integer real  and string
+print(10,3.7,"hi")
+
+by default
+________________
+print(sep=" ",end="\n")
+
+
+
+
+print("hi\nram")
+
+o/p:
+hi
+ram
+
+print("hi\tram")
+o/p:
+hi   ram
+
+
+
+print("hi\bram") #hram
+print("hi\b\bram") #ram
+print("hi\rram") #ram
+print("hello\bindia") #hellindia
+print("hello\rindia") #india
+
+
+identifier
+______________
+it is user defined word.
+This word is used to give name of the variable clasname ,.....
+
+rule
+______
+(1)it consist of
+ a to z
+A to Z
+0 to 9
+_
+
+(2)not start with digit
+
+(3)space not allow
+(4)case senistive  a!=A
+(5) predefined word not allow
+
+import keyword
+print(len(keyword.kwlist))
+print(keyword.kwlist)
+
+35
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+identify the identifier
+________________________
+abd   v 
+aBd   v
+a3    v
+3a    iv
+a$B   iv
+a_b    v
+_ab   v
+a b    iv
+if     iv(predefined word )
+IF     v  (not recommand)
+
+
+datatype:
+it tell the compiler your variable store which type data
+
+inbulit datatype
+______________________ (immutable)
+int
+float
+str
+bool
+complex
+
+other datatype
+_______________
+list
+tuple
+set
+dict
+
+
+variable:
+it is memeory location name.
+where store and retrive data.
+
+How to initize variable in c c++ java
+_____________________________________________
+datatype variablename;
+varaiablename=literal;
+
+
+in python
+______________
+variablename=literal
+a=10
+b=2.5
+
+
+
+a=10
+b=2.5
+print(a,b)
+
+
+type():
+it is predefined function.it is used check your variable or literal which type.
+a=10
+b=2.5
+c="hi"
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(True))
+
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+
+id():it is predeined function .it is used to show refernce or address variable, literal.
+
+a=10
+b=2.5
+print(id(a),a)
+print(id(b),b)
+
+140720976300760 10
+2000900959344 2.5
+
+
+single line intlization
+____________________________
+a=10
+b=2.5
+c="hi"
+
+or
+
+a,b,c=10,2.5,"hi"
+print(a,b,c)
+
+
+o/p:
+10 2.5 hi
+
+
+a=10,2.5,"hi"
+print(type(a),a)
+
+o/p:
+<class 'tuple'> (10, 2.5, 'hi')
+
+
+grammer
+_______________
+a=10
+print("hi ram")
+print("a")
+print(a)
+
+
+
+o/p:
+hi ram
+a
+10
+
+
+a=20
+print("a")
+print(a)
+print("a+3")
+print(a+3)
+
+
+o/p:
+a
+20
+a+3
+23
+
+
+
+a=10
+b=20
+print("first no=",a)
+print("second no=",b)
+print("add=",a+b)
+print("mult=",a*b)
+
+o/p:
+first no=10
+second no=20
+add=30
+mult=200
+
+
+
+or
+a=10
+b=20
+print("first no=",a)
+print("second no=",b)
+s=a+b
+print("add=",s)
+m=a*b
+print("mult=",m)
+
+
+
+
+
+
+print("enter two nos ")
+a=int(input())
+b=int(input())
+print("first no=",a)
+print("second no=",b)
+s=a+b
+print("add=",s)
+m=a*b
+print("mult=",m)
+
+
+o/p:
+C:\Users\LENOVO\OneDrive\Desktop\python9pm>py test.py
+enter two nos
+10
+20
+first no= 10
+second no= 20
+add= 30
+mult= 200
+
+C:\Users\LENOVO\OneDrive\Desktop\python9pm>py test.py
+enter two nos
+50
+60
+first no= 50
+second no= 60
+add= 110
+mult= 3000

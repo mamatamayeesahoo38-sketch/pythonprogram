@@ -1,0 +1,12 @@
+a=2.5
+b=3.4
+c=6.3
+print("first number=",a)
+print("second number=",b)
+print("third number=",c)
+s=a+b+c
+print("add=",s)
+m=a*b*c
+print("mult=",m)
+c=c-a
+print("substract=",c)

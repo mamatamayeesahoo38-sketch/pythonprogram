@@ -1,0 +1,11 @@
+print("enter first number ")
+n1=int(input())
+print("enter second number")
+n2=int(input())
+print("enter third number")
+n3=int(input())
+s=n1+n2+n3
+print("first number=",n1)
+print("second number=",n2)
+print("third number=",n3)
+print("sum of three number=",s)

@@ -1,0 +1,16 @@
+print("enter monthly salary")
+Sal=float(input())
+print("enter salary of da")
+da=float(input())
+print("enter salary of HR")
+HR=float(input())
+print("enter tax")
+tax=float(input())
+totalm=Sal+da+HR-tax
+totala=Sal*12
+print("basic salary=",Sal)
+print("salary of da=",da)
+print("salary of HR=",HR)
+print("tax from salary=",tax)
+print("monthly salary=",totalm)
+print("annual salary=",totala)
