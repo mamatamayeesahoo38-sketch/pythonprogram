@@ -1,5 +1,5 @@
 class Rectangle:
-	def __init__(self,L,B):   #constrcutor
+	def __init__(self,L,B):   
 		self.length=L
 		self.breadth=B
 	def show(self):

@@ -9,5 +9,5 @@ class square:
 		return 4*self.side
 s=square(5)
 s.show()
-s.area()
+s.area()hn
 print("perimeter of square=",s.perimeter())

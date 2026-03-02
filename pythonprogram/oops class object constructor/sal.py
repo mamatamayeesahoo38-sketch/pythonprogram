@@ -1,4 +1,4 @@
-class sal:
+class Employee:
     def __init__(self, emp_id, name, salary):   
         self.emp_id = emp_id
         self.name = name
@@ -27,7 +27,7 @@ for i in range(n):
     emp_id = int(input("Employee ID: "))
     name = input("Name: ")
     salary = float(input("Basic Salary: "))
-    employees.append(sal(emp_id, name, salary))
+    employees.append(Employee(emp_id, name, salary))
 
 print("\n{:<8}{:<15}{:<10}{:<10}{:<10}{:<12}".format(
     "ID", "Name", "Salary", "DA", "HRA", "Total"))
